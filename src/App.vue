@@ -2,6 +2,7 @@
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
 import AppFooter from './components/AppFooter.vue';
+import AppBluePart from './components/AppBluePart.vue';
 
 export default {
     name: 'MyApp',
@@ -11,6 +12,7 @@ export default {
         AppHeader,
         AppMain,
         AppFooter,
+        AppBluePart,
     }
 }
 </script>
@@ -57,6 +59,10 @@ a {
 
 .flex-between {
     justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
 }
 
 .align-center {

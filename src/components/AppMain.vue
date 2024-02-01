@@ -1,8 +1,13 @@
 <script>
+import AppBluePart from './AppBluePart.vue';
 export default {
     name: 'AppMain',
     data: () => ({
     }),
+    components: {
+        AppBluePart
+    }
+
 }
 </script>
 <template>
@@ -13,12 +18,8 @@ export default {
                     --- Content goes here --- </p>
             </section>
         </div>
+        <AppBluePart />
 
-        <div class="bg-myblue">
-            <section class="container digital">
-                <p>hello</p>
-            </section>
-        </div>
 
     </main>
 </template>
@@ -34,17 +35,5 @@ main {
 
 .bg-myblack {
     background-color: #1C1C1C;
-}
-
-
-
-
-.digital {
-    color: white;
-    height: 100px;
-}
-
-.bg-myblue {
-    background-color: #0282F9;
 }
 </style>

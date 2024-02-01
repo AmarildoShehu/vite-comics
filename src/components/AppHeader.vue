@@ -90,6 +90,7 @@ figure a img {
 }
 
 ul {
+
     gap: 10px;
 }
 
@@ -104,6 +105,8 @@ ul li a {
     color: #484848;
     padding: 36px 0;
 }
+
+
 
 ul li a:hover,
 ul li a.active {
