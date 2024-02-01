@@ -24,15 +24,22 @@ export default {
 <style>
 /* Generics */
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Utils */
 .container {
     margin: 0 auto;
-    width: 800px;
-    border: 2px solid black;
+    width: 1000px;
+
+}
+
+
+img {
+    max-width: 100%;
 }
 
 /* Utils Flex */
