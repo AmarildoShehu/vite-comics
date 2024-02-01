@@ -1,20 +1,20 @@
 <script>
 import AppHeader from './components/Appheader.vue';
+import AppMain from './components/AppMain.vue';
 export default {
     name: 'MyApp',
     data: () => ({
     }),
     components: {
         AppHeader,
+        AppMain,
     }
 }
 </script>
 
 <template>
-    <div class="">
-        <AppHeader />
-
-    </div>
+    <AppHeader />
+    <AppMain />
 </template>
 
 <style>
