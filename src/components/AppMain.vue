@@ -8,20 +8,26 @@ export default {
 <template>
     <main>
         <div class="bg-myblack">
-            <div class="container content">
-                <div>
-                    --- Content goes here --- </div>
-            </div>
+            <section class="container content">
+                <p>
+                    --- Content goes here --- </p>
+            </section>
         </div>
-        <div class="bg-myblue">
-            <section class="digital">
 
+        <div class="bg-myblue">
+            <section class="container digital">
+                <p>hello</p>
             </section>
         </div>
 
     </main>
 </template>
 <style>
+main {
+    background-color: #1C1C1C;
+    color: white;
+}
+
 .content {
     height: 100px;
 }
@@ -34,6 +40,7 @@ export default {
 
 
 .digital {
+    color: white;
     height: 100px;
 }
 
