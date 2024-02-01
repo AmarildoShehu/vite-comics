@@ -22,7 +22,7 @@ export default {
 
     </main>
 </template>
-<style>
+<style scoped>
 main {
     background-color: #1C1C1C;
     color: white;

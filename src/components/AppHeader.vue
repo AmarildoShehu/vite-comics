@@ -74,7 +74,7 @@ export default {
     </header>
 </template>
 
-<style>
+<style scoped>
 header {
     background-color: #ffffff;
     height: 100px;
@@ -90,7 +90,6 @@ figure a img {
 }
 
 ul {
-    list-style: none;
     gap: 10px;
 }
 

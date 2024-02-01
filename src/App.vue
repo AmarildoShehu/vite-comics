@@ -42,6 +42,14 @@ img {
     max-width: 100%;
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 /* Utils Flex */
 .d-flex {
     display: flex;
