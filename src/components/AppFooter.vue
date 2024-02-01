@@ -56,11 +56,22 @@ export default {
             </div>
             <div class="upright"></div>
         </section>
-        <section id="downfooter">
-            <div class="container d-flex flex-between">
-                <div>sign up now</div>
-                <div>Follow us</div>
-            </div>
+        <section id="footer-bottom" class=" ">
+            <nav class="container d-flex flex-between align-center">
+                <div id="bottom-left">
+                    <a href="#" class="btn">SIGN-UP NOW!</a>
+                </div>
+                <div id="bottom-right" class="d-flex align-center">
+                    <ul class="d-flex">
+                        <li><a href="#" class="follow-btn">FOLLOW US</a></li>
+                        <li><a href="#"><img src="../assets/img/footer-facebook.png" alt=""></a></li>
+                        <li><a href="#"><img src="../assets/img/footer-twitter.png" alt=""></a></li>
+                        <li><a href="#"><img src="../assets/img/footer-youtube.png" alt=""></a></li>
+                        <li><a href="#"><img src="../assets/img/footer-pinterest.png" alt=""></a></li>
+                        <li><a href="#"><img src="../assets/img/footer-periscope.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </nav>
         </section>
     </footer>
 </template>
@@ -75,6 +86,7 @@ footer {
     color: white
 }
 
+/* TOP PART */
 .upleft {
     margin: 10px 0;
 }
@@ -110,8 +122,34 @@ ul li a:hover {
     color: white;
 }
 
-#downfooter {
+
+/* BOOTTOM PART */
+#footer-bottom {
     background-color: #303030;
+    padding: 10px;
+}
+
+nav {
     height: 100px;
+}
+
+#bottom-right ul {
+    gap: 1rem;
+}
+
+.btn {
+    border: 2px solid #0282F9;
+    padding: 13px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn:hover {
+    background-color: #0282F9;
+}
+
+.follow-btn {
+    color: #0282F9;
+    font-size: 1.4rem;
 }
 </style>
