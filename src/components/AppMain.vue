@@ -1,10 +1,12 @@
 <script>
+import AppBarrel from './AppBarrel.vue';
 import AppBluePart from './AppBluePart.vue';
 export default {
     name: 'AppMain',
     data: () => ({
     }),
     components: {
+        AppBarrel,
         AppBluePart
     }
 
@@ -12,15 +14,8 @@ export default {
 </script>
 <template>
     <main>
-        <div class="bg-myblack">
-            <section class="container content">
-                <p>
-                    --- Content goes here --- </p>
-            </section>
-        </div>
+        <AppBarrel />
         <AppBluePart />
-
-
     </main>
 </template>
 <style scoped>
