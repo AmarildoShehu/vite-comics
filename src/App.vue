@@ -3,6 +3,7 @@ import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
 import AppFooter from './components/AppFooter.vue';
 import AppBluePart from './components/AppBluePart.vue';
+import AppJumbotron from './components/AppJumbotron.vue';
 
 export default {
     name: 'MyApp',
@@ -10,6 +11,7 @@ export default {
     }),
     components: {
         AppHeader,
+        AppJumbotron,
         AppMain,
         AppFooter,
         AppBluePart,
@@ -19,6 +21,7 @@ export default {
 
 <template>
     <AppHeader />
+    <AppJumbotron />
     <AppMain />
     <AppFooter />
 </template>
