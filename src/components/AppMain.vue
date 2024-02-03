@@ -1,11 +1,13 @@
 <script>
-import AppBarrel from './AppBarrel.vue';
-import AppBluePart from './AppBluePart.vue';
+import AppJumbotron from './main-components/AppJumbotron.vue';
+import AppBarrel from './main-components/AppBarrel.vue';
+import AppBluePart from './main-components/AppBluePart.vue';
 export default {
     name: 'AppMain',
     data: () => ({
     }),
     components: {
+        AppJumbotron,
         AppBarrel,
         AppBluePart
     }
@@ -14,6 +16,7 @@ export default {
 </script>
 <template>
     <main>
+        <AppJumbotron />
         <AppBarrel />
         <AppBluePart />
     </main>
@@ -22,7 +25,7 @@ export default {
 main {
     background-color: #1C1C1C;
     color: white;
-    padding-bottom: 2rem;
+    padding-bottom: ;
 }
 
 .content {

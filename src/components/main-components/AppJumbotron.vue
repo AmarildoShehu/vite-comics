@@ -13,7 +13,7 @@ export default {
 </template>
 <style>
 #jumbotrone {
-    background-image: url(../assets/img/jumbotron.jpg);
+    background-image: url(../../assets/img/jumbotron.jpg);
     height: 350px;
     background-repeat: no-repeat;
     background-position: top;
