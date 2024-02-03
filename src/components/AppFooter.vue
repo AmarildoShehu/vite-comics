@@ -137,12 +137,7 @@ nav {
     gap: 1rem;
 }
 
-.btn {
-    border: 2px solid #0282F9;
-    padding: 13px;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-}
+
 
 .btn:hover {
     background-color: #0282F9;

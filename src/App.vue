@@ -38,7 +38,7 @@ export default {
 /* Utils */
 .container {
     margin: 0 auto;
-    width: 1000px;
+    width: 1150px;
 
 }
 
@@ -70,5 +70,13 @@ a {
 
 .align-center {
     align-items: center;
+}
+
+/* Button */
+.btn {
+    border: 2px solid #0282F9;
+    padding: 13px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 </style>

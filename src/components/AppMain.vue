@@ -22,6 +22,7 @@ export default {
 main {
     background-color: #1C1C1C;
     color: white;
+    padding-bottom: 2rem;
 }
 
 .content {
